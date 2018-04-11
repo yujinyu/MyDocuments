@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 2018-4-11-基于Kubernetes部署kong 0.13.0
+title: 基于Kubernetes部署kong 0.13.0
 date: 2018-4-11 17:4:5 +0386
 categories: 环境配置
 tags: API_Gateway Kubernetes
@@ -9,9 +9,9 @@ description: 在Kubernetes中部署kong的新手指南。
 
 # （一） 一些准备工作
 
-### 1. Kubernetes部署完成并且支持DNS解析；
-### 2. 准备运行数据库（Postgres或者Cassandra）容器的必要的后端存储，这里我使用的heketi-glusterfs;
-### 3. 特别说明，本文kong应用部署在default namespace中
+#### 1. Kubernetes部署完成并且支持DNS解析；
+#### 2. 准备运行数据库（Postgres或者Cassandra）容器的必要的后端存储，这里我使用的heketi-glusterfs;
+#### 3. 特别说明，本文kong应用部署在default namespace中
 # （二）Kong部署过程
 ## 1. 创建StorageClass，为运行数据库Postgres或者Cassandra做准备；
 
@@ -352,10 +352,10 @@ curl -i -X GET  --url http://${kubernetes_master_ip}:$(kong_proxy_nodeport}/  --
 
 ----------
 
-参考资料：
-[1]. https://github.com/Kong/kong-dist-kubernetes
-[2]. https://getkong.org/install/kubernetes/
-[3]. https://kubernetes.io/docs/concepts/storage/storage-classes/
-[4]. https://kubernetes.io/docs/concepts/workloads/controllers/statefulset/
-[5]. https://github.com/IBM/Scalable-Cassandra-deployment-on-Kubernetes
-[6]. https://getkong.org/docs/0.13.x/getting-started/configuring-a-service/
+参考资料：   
+[1]. https://github.com/Kong/kong-dist-kubernetes      
+[2]. https://getkong.org/install/kubernetes/     
+[3]. https://kubernetes.io/docs/concepts/storage/storage-classes/     
+[4]. https://kubernetes.io/docs/concepts/workloads/controllers/statefulset/     
+[5]. https://github.com/IBM/Scalable-Cassandra-deployment-on-Kubernetes     
+[6]. https://getkong.org/docs/0.13.x/getting-started/configuring-a-service/     
