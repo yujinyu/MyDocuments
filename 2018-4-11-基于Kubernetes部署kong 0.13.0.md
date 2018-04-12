@@ -345,7 +345,7 @@ upstream_url”的值，加入kong在defaul而Nginx在test命名空间，那么u
 curl -i -X GET  --url http://${kubernetes_master_ip}:$(kong_proxy_nodeport}/  --header 'Host: nginx-example.com'
 ```
 结果如图所示，
-![enter description here](https://www.github.com/yujinyu/markdown/raw/master/images/2018-4-11-基于Kubernetes部署kong 0.13.0/clipboard.png)
+![enter description here](https://www.github.com/yujinyu/markdown/raw/master/images/2018-4-11/clipboard.png)
 
 # （四） 到此已成功运行kong。
 
