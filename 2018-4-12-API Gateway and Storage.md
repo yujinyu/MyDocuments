@@ -9,7 +9,7 @@ description: 简要说明。
 
 API Gateway使用应用服务的最上层，直接为用户提供服务；    
 而Storage则处于应用和系统之间，为服务应用提供数据存储功能，在Netflix中他们所处的层次关系如图所示。    
-![enter description here](https://www.github.com/yujinyu/markdown/raw/master/images/2018-4-12-API Gateway and Storage/v2-d364f3f5ac1d46d0ea37bab7f99d680c_r.jpg)
+![enter description here](https://github.com/yujinyu/markdown/blob/master/images/2018-4-12-API%20Gateway%20and%20Storage/v2-d364f3f5ac1d46d0ea37bab7f99d680c_r.jpg)
 
  1. 问题两者是否可以联系起来？   
  2. 如何将两者进行结合？      
